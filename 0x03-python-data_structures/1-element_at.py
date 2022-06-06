@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-def element_at(my_list, idx):
-    if idx < 0:
+def element_at(my_data, index):
+    if index < 0:
         return (None)
 
-    length = len(my_list)
+    length = len(my_data)
 
-    if idx > length - 1:
+    if index > length - 1:
         return (None)
 
-    return(my_list[idx])
+    return(my_data[index])
