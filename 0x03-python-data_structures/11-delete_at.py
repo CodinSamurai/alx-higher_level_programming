@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-def delete_at(my_list=[], idx=0):
-    length = len(my_list)
+def delete_at(my_data=[], index=0):
+    length = len(my_data)
 
-    if idx < 0 or idx >= length:
-        return (my_list)
+    if index >= length or index < 0:
+        return (my_data)
 
-    del my_list[idx]
+    del my_data[index]
 
-    return (my_list)
+    return (my_data)
