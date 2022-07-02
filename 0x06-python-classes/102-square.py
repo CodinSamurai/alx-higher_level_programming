@@ -1,21 +1,4 @@
-
-        """
-        return self.__size**2
-
-    def __lt__(self, other):
-        return self.size < other.size
-
-    def __le__(self, other):
-        return self.size <= other.size
-
-    def __eq__(self, other):
-        return self.size == other.size
-
-    def __ne__(self, other):
-        return self.size != other.size
-
-    def __ge__(self, other):
-        return self.size >= other.size#!/usr/bin/python3
+#!/usr/bin/python3
 """ class Square that defines a square"""
 
 
@@ -53,3 +36,20 @@ class Square:
         """returns the area
         Returns:
             area.
+        """
+        return self.__size**2
+
+    def __lt__(self, other):
+        return self.size < other.size
+
+    def __le__(self, other):
+        return self.size <= other.size
+
+    def __eq__(self, other):
+        return self.size == other.size
+
+    def __ne__(self, other):
+        return self.size != other.size
+
+    def __ge__(self, other):
+        return self.size >= other.size
