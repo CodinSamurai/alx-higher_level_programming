@@ -1,13 +1,4 @@
-)}
-        return self.__dict__
-
-    def reload_from_json(self, json):
-        """Replace all attributes of the Student.
-        Args:
-            json (dict): The key/value pairs to replace attributes with.
-        """
-        for k, v in json.items():
-            setattr(self, k, v)#!/usr/bin/python3
+#!/usr/bin/python3
 """Defines a class Student."""
 
 
